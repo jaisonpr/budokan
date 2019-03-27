@@ -1,0 +1,74 @@
+
+footer {
+	background-color: #555;
+    color: white;
+	padding: 15px;
+}
+
+footer a {
+     color: white;     
+}
+
+footer a:visited {
+     color: white;
+}
+
+
+#cabecalho {
+	background: url(../images/emblema_budokan_150.png) no-repeat top left;
+	height: 10.75em; 
+}
+
+#cabecalho .texto1 {
+	font: 2em "Open Sans", sans-serif;
+	position: relative;
+	text-align: center;
+}
+#cabecalho .texto2 {
+	font: 1em "Open Sans", sans-serif;
+	position: relative;
+	text-align: center;
+	color: gray;
+}
+#contato {
+	font: 1.2em "Open Sans", sans-serif;
+	position: relative;
+	text-align: right;
+}
+    
+.navbar {
+    margin-bottom: 0;
+}
+.row.content {
+	height: 400px;
+}
+.kanji-bar {
+	padding-top: 50px;
+	background-color: #f1f1f1;
+	height: 100%;	
+    z-index: 0;
+}
+
+.navbar-brand {
+}
+
+
+
+@media only screen and (max-width: 750px) {
+    #cabecalho {        
+		background-size: 100px 100px;
+		height: 7.5em; 
+    }
+	#cabecalho .texto1 {
+		font: 1em "Open Sans", sans-serif;
+	}
+	#cabecalho .texto2 {
+		font: 0.75em "Open Sans", sans-serif;
+	}
+	.row.content {height:auto;}	
+	.kanji-img {	
+		height: 0em; 
+	}
+}
+
+

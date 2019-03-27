@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Budokan</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="robots" content="index, follow">
+<meta name="keywords" content="Karate, Shotokan, Aikido, Arte Macial, Budo, Dojo, Dojo Kun, Florianopolis, Brasil" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="lib/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="icon" href="images/favicon.ico">
+<script src="lib/jquery-3.1.0.min.js"></script>
+<script src="lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119410942-1"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() {
+		dataLayer.push(arguments);
+	}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-119410942-1');
+</script>
+
+<script src="js/script.js"></script>
+<script>
+	loadMain('eventos/seminario_45');
+</script>
+</head>
+<body>
+	<header>
+		<div id="cabecalho">
+			<p class="texto1">Associa&ccedil;&atilde;o Desterro</p>
+			<p class="texto1">Karate-Do Tradicional</p>
+			<p class="texto2">Florian&oacute;polis / SC</p>
+			<p class="texto2">Desde 1973</p>
+		</div>			
+		<nav id="menu" class="navbar navbar-inverse">
+			<div class="container-fluid" >
+				<div class="navbar-header">					
+					<a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-home" /></a>
+				</div> 
+				<ul class="nav navbar-nav">
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Dojo<span class="caret" /></a>
+						<ul class="dropdown-menu">
+							<li><a tabindex="-1" href="#"onclick="loadMain('dojo/localizacao')">Localiza&ccedil;&atilde;o</a></li>
+							<li><a tabindex="-1" href="#"onclick="loadMain('dojo/instalacoes')">Instala&ccedil;&otilde;es</a></li>
+							<li><a tabindex="-1" href="#"onclick="loadMain('dojo/equipe')">Equipe</a></li>
+							<li><a tabindex="-1" href="#"onclick="loadMain('dojo/historia')">Hist&oacute;ria</a></li>
+						</ul>
+					</li>			
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Karate-Do<span class="caret" /></a>
+						<ul class="dropdown-menu">
+							<li><a tabindex="-1" href="#"onclick="loadMain('karate/horarios')">Hor&aacute;rios</a></li>
+							<li><a tabindex="-1" href="#"onclick="loadMain('karate/dojokun')">Dōjō kun</a></li>
+							<li><a tabindex="-1" href="#"onclick="loadMain('karate/historia')">Hist&oacute;ria</a></li>
+							<li><a tabindex="-1" href="#"onclick="loadMain('karate/livros')">Livros recomendados</a></li>
+						</ul>
+					</li>				  
+					<li><a href="#" onclick="loadMain('aikido')">Aikido</a></li>
+				</ul>
+				<!-- <ul class="nav navbar-nav ">
+					<li><a href="#" onclick="loadMain('horarios')"><span class="glyphicon glyphicon-time"></span> Hor&aacute;rios</a></li>
+				</ul> -->
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#" onclick="loadMain('eventos/calendario')"><span class="glyphicon glyphicon-calendar"></span> Eventos</a></li>
+				</ul>
+			</div>	
+		</nav>
+	</header>	
+	<section id="main">
+		<div id="conteudo" class="container-fluid text-center" ></div>
+	</section>
+	<footer class="container-fluid text-right">
+		<p> (48) 3224-0911 <span class="glyphicon glyphicon-phone-alt" /></p>
+		<p> (48) 99101-5244 (Castro) <span class="glyphicon glyphicon-phone" /></p>
+		<p> oss@budokan.com.br <span class="glyphicon glyphicon-envelope" /></p>
+		<p> Rua João Pinto, 198 (2º Andar) <span class="glyphicon glyphicon-home" /></p>
+		<!-- <p> <a href="http://www.facebook.com/groups/budokan.fpolis"> grupo no facebook <span class="glyphicon glyphicon-thumbs-up" /></a></p> -->		
+	</footer>
+</body>
+</html>
+

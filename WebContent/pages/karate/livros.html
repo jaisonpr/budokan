@@ -1,0 +1,231 @@
+<html>
+<head>
+</head>
+<body>
+	<div class="row content">
+			
+		<div class="col-sm-2 "></div>
+
+
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" role="dialog">
+			<div class="modal-dialog">
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+					</div>
+					<div class="modal-body">
+						<div id="livro">
+							<b id="titulo" /><p id="isbn" />
+							<ul class="nav nav-tabs">
+								<li class="active"><a data-toggle="tab" href="#capa">Capa</a></li>
+								<li><a data-toggle="tab" href="#sinopse">Sinopse</a></li>
+							</ul>
+							<div class="tab-content">
+								<div id="capa" class="tab-pane fade in active">
+									<br> <img id="img_capa" style="width: auto; height: 250;" />
+								</div>
+								<div id="sinopse" class="tab-pane fade">
+									<br>
+									<div id="txt_livro" class="texto2"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+			  <div class="panel panel-default">
+			   
+			    <div class="panel-heading" role="tab" id="headingOne">
+			      <h4 class="panel-title">
+			        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+			          <b>Funakoshi</b>, Gichin  
+			        </a>
+			      </h4>
+			    </div>
+			    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+			      <div class="panel-body">
+
+					<div class="col-lg-3 col-md-4 col-xs-6 thumb" >
+						<img src="images/livros/8531612705.jpg"
+								id="8531612705"
+								alt="Karate-Do Kyohan - O TEXTO MESTRE"
+								style="width: 128px; height: auto;"
+								data-toggle="modal"
+								data-target="#myModal"								
+								onclick="loadLivro(this)"  />
+
+					</div>
+					<div class="col-lg-3 col-md-4 col-xs-6 thumb" >			
+						<img src="images/livros/8531609224.jpg"
+								id="8531609224"
+								alt="Os Vinte Princípios Fundamentais do Karate"
+								style="width: 128px; height: auto;"
+								data-toggle="modal"
+								data-target="#myModal"								
+								onclick="loadLivro(this)"  />				
+					</div>
+					<div class="col-lg-3 col-md-4 col-xs-6 thumb" >			
+						<img src="images/livros/853160463X.jpg"
+								id="853160463X"
+								alt="Karate-Do O meu Modo de vida"
+								style="width: 128px; height: auto;"
+								data-toggle="modal"
+								data-target="#myModal"								
+								onclick="loadLivro(this)"  />				
+					</div>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="panel panel-default">
+			    <div class="panel-heading" role="tab" id="headingTwo">
+			      <h4 class="panel-title">
+			        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+			          <b>Nakayama</b>, Masatoshi 
+			        </a>
+			      </h4>
+			    </div>
+			    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+			      <div class="panel-body">
+					<div class="col-lg-3 col-md-4 col-xs-6 thumb" >
+						<img src="images/livros/8531605288.jpg"
+								id="8531605288"
+								alt="O melhor do Karate - vol. 1"
+								style="width: 128px; height: auto;"
+								data-toggle="modal"
+								data-target="#myModal"								
+								onclick="loadLivro(this)"  />
+
+					</div>
+					<div class="col-lg-3 col-md-4 col-xs-6 thumb" >
+						<img src="images/livros/8531605296.jpg"
+								id="8531605296"
+								alt="O melhor do Karate - vol. 2"
+								style="width: 128px; height: auto;"
+								data-toggle="modal"
+								data-target="#myModal"								
+								onclick="loadLivro(this)"  />
+
+					</div>
+					<div class="col-lg-3 col-md-4 col-xs-6 thumb" >
+						<img src="images/livros/8531605687.jpg"
+								id="8531605687"
+								alt="O melhor do Karate - vol. 3"
+								style="width: 128px; height: auto;"
+								data-toggle="modal"
+								data-target="#myModal"								
+								onclick="loadLivro(this)"  />
+
+					</div>
+					<div class="col-lg-3 col-md-4 col-xs-6 thumb" >
+						<img src="images/livros/8531605709.jpg"
+								id="8531605709"
+								alt="O melhor do Karate - vol. 4"
+								style="width: 128px; height: auto;"
+								data-toggle="modal"
+								data-target="#myModal"								
+								onclick="loadLivro(this)"  />
+
+					</div>
+					<div class="col-lg-3 col-md-4 col-xs-6 thumb" >
+						<img src="images/livros/853160530X.jpg"
+								id="853160530X"
+								alt="O melhor do Karate - vol. 5"
+								style="width: 128px; height: auto;"
+								data-toggle="modal"
+								data-target="#myModal"								
+								onclick="loadLivro(this)"  />
+
+					</div>
+					<div class="col-lg-3 col-md-4 col-xs-6 thumb" >
+						<img src="images/livros/8531605741.jpg"
+								id="8531605741"
+								alt="O melhor do Karate - vol. 6"
+								style="width: 128px; height: auto;"
+								data-toggle="modal"
+								data-target="#myModal"								
+								onclick="loadLivro(this)"  />
+
+					</div>
+					<div class="col-lg-3 col-md-4 col-xs-6 thumb" >
+						<img src="images/livros/8531605792.jpg"
+								id="8531605792"
+								alt="O melhor do Karate - vol. 7"
+								style="width: 128px; height: auto;"
+								data-toggle="modal"
+								data-target="#myModal"								
+								onclick="loadLivro(this)"  />
+
+					</div>
+					<div class="col-lg-3 col-md-4 col-xs-6 thumb" >
+						<img src="images/livros/8531605873.jpg"
+								id="8531605873"
+								alt="O melhor do Karate - vol. 8"
+								style="width: 128px; height: auto;"
+								data-toggle="modal"
+								data-target="#myModal"								
+								onclick="loadLivro(this)"  />
+
+					</div>
+					<div class="col-lg-3 col-md-4 col-xs-6 thumb" >
+						<img src="images/livros/8531606063.jpg"
+								id="8531606063"
+								alt="O melhor do Karate - vol. 9"
+								style="width: 128px; height: auto;"
+								data-toggle="modal"
+								data-target="#myModal"								
+								onclick="loadLivro(this)"  />
+
+					</div>
+					<div class="col-lg-3 col-md-4 col-xs-6 thumb" >
+						<img src="images/livros/8531606934.jpg"
+								id="8531606934"
+								alt="O melhor do Karate - vol. 10"
+								style="width: 128px; height: auto;"
+								data-toggle="modal"
+								data-target="#myModal"								
+								onclick="loadLivro(this)"  />
+
+					</div>
+					<div class="col-lg-3 col-md-4 col-xs-6 thumb" >
+						<img src="images/livros/8531607655.jpg"
+								id="8531607655"
+								alt="O melhor do Karate - vol. 11"
+								style="width: 128px; height: auto;"
+								data-toggle="modal"
+								data-target="#myModal"								
+								onclick="loadLivro(this)"  />
+
+					</div>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="panel panel-default">
+			    <div class="panel-heading" role="tab" id="headingThree">
+			      <h4 class="panel-title">
+			        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			          Outros autores
+			        </a>
+			      </h4>
+			    </div>
+			    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+			      <div class="panel-body">
+			        Outros autores...
+			      </div>
+			    </div>
+			  </div>
+			</div>
+			
+
+						
+			<div class="col-sm-2 ">
+			</div>
+			
+		</div>
+</body>
+</html>
