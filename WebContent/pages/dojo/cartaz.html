@@ -101,60 +101,12 @@
 </style>
 
 <script src="js/image.js"></script>
-<script>
-function play(dk) {
-	var audio = document.getElementById("dojokun");
-	audio.src = "media/dojokun"+dk+".mp3";
-	audio.volume = 0.3;
-	audio.play();
-}
-</script>
 
 </head>
 <body>
-		<audio id="dojokun">
-			<source src="media/dojokun1.mp3" type="audio/mpeg" >
-		</audio>
 		<div class="row content">
-			<div class="col-sm-2 ">
-			</div>
-			
-			<div class="col-sm-8 text-left">
-				<h2>Dōjō kun</h2>
-				<hr>
-				<p>O Dōjō kun são os cinco preceitos que representam os ideais do Karate</p>
-				<br>
-				<ul>					
-					<li>一、人格完成に努むること </li>
-					<p>Hitotsu, Jinkaku Kansei Ni Tsutomuru Koto <a href="#" onclick="play('1')" ><span class="glyphicon glyphicon-play-circle" /></a> </p>
-					<p>Primeiro - Esforçar-se para formação do caráter!</p>
-											
-					<li>一、誠の道を守ること </li>
-					<p>Hitotsu, Makoto No Michi O Mamoru Koto <a href="#" onclick="play('2')" ><span class="glyphicon glyphicon-play-circle" /></a> </p>
-					<p>Primeiro - Ser fiel ao verdadeiro caminho da razão!</p>
-					
-					<li>一、努力の精神を養うこと </li>
-					<p>Hitotsu, Doryōku No Seishin O Yashinau Koto <a href="#" onclick="play('3')" ><span class="glyphicon glyphicon-play-circle" /></a> </p>
-					<p>Primeiro - Criar o intuito de esforço!</p>
-					
-					<li>一、礼儀を重んずること </li>
-					<p>Hitotsu, Reigi O Omonzuru Koto <a href="#" onclick="play('4')" ><span class="glyphicon glyphicon-play-circle" /></a> </p>
-					<p>Primeiro - Respeitar, acima de tudo!</p>
-					
-					<li>一、血気の勇を戒むること </li>
-					<p>Hitotsu, Kekki No Yū O Imashimuru Koto <a href="#" onclick="play('5')" ><span class="glyphicon glyphicon-play-circle" /></a> </p>
-					<p>Primeiro - Reprimir o espírito de agressão!</p>
-													
-				</ul>
-				<div class="alert alert-info">
-				O Dojo Kun sempre começa com a palavra Hitotsu (primeiro), pois todos os preceitos são importantes e devem ser exercidos igualmente.
-				</div>
-				<hr>
-				
-			</div>
-						
 			<div class="col-sm-2 text-center">			
-				<img id="image" src="images/dojokun.png" width="200px" />
+				<img  class="kanji-img"  id="image" src="images/cartaz_budokan.png" width="auto" />
 				<!-- The Modal -->
 				<div id="myModal" class="modal">
 					<!-- The Close Button -->
